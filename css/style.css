@@ -263,7 +263,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 576px;
+    height: 584px;
     width: 408px;
     background-color: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -382,7 +382,7 @@ body {
     padding-top: 120px;
     padding-bottom: 110px;
     margin: 0 auto;
-    background: var(--light);
+    background: var(--grey);
 }
 .section-tittle{
     margin-bottom: 72px;
@@ -609,7 +609,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: var(--light);
+    background: var(--grey);
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     color: var(--primary_brand);
@@ -770,7 +770,8 @@ body {
     border-radius: 4px;
     border: none;
     cursor: pointer;
-  
+    
+
     min-width: 165px;
     margin-left: 24px;
     padding-bottom: 8px;
@@ -896,6 +897,7 @@ body {
     margin-top: 16px;
   }
   .modal-checkbox {
+    visibility: hidden;
     appearance: none;
     position: absolute;
     width: 16px;
@@ -928,6 +930,9 @@ body {
   
   .modal-checkbox:checked + .checkbox-label:before {
     border: none;
+    width: 16px;
+    height: 16px;
+    border: 1px solid var(--hover);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
