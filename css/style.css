@@ -931,6 +931,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    background-color: var(--hover);
+    background-image: url('../images/Checkbox.svg');
 }
   
   .submit-send {
