@@ -907,9 +907,8 @@ body {
     margin-top: 16px;
   }
   .modal-checkbox {
-    visibility: hidden;
-    appearance: none;
     position: absolute;
+    margin-left: 900px;
     width: 16px;
     height: 16px;
   }
